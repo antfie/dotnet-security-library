@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Antfie.SecurityLibrary</id>
+        <version>1.0.0</version>
+        <authors>Anthony Fielding</authors>
+        <company>Veracode, Inc.</company>
+        <owners>antfie</owners>
+        <repository type="git" url="https://github.com/antfie/dotnet-security-library" branch="main"></repository>
+        <description>A security library including cleanser such as a CRLF cleanser to mitigate CWE-113, CWE-117</description>
+        <copyright>Copyright © 2023 Veracode, Inc.</copyright>
+        <tags>security encoding</tags>
+    </metadata>
+</package>
