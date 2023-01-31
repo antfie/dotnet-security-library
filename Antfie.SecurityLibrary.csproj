@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <PackageId>Antfie.SecurityLibrary</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>antfie</Authors>
     <Company>Veracode, Inc.</Company>
     <Copyright>Copyright © 2023 Veracode, Inc.</Copyright>
@@ -12,5 +12,10 @@
     <RepositoryUrl>https://github.com/antfie/dotnet-security-library</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>main</RepositoryBranch>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
